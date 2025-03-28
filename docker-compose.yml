@@ -7,7 +7,7 @@ services:
       - ES_JAVA_OPTS=-Xms1g -Xmx1g
     ports:
       - "${ELASTIC_PORT}:${ELASTIC_PORT}"
-      - "${ELASTIC_PORT}:${ELASTIC_PORT}"
+      - "9300:9300"
     volumes:
       - es_data:/usr/share/elasticsearch/data
 

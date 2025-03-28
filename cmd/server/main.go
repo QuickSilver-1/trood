@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"os"
 	"server/internal/server"
@@ -31,7 +30,6 @@ func main() {
 	server.NlpService = nlp
 
 	time.Sleep(time.Second*10)
-	fmt.Println(111)
 	elasticHost := os.Getenv("ELASTIC_HOST")
 	elasticPortStr := os.Getenv("ELASTIC_PORT")
 

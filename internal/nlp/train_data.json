@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What is the purpose of your low-code platform?",
+        "keywords": ["purpose", "low", "code", "platform"]
+    },
+    {
+        "question": "Do I need coding knowledge to use this platform?",
+        "keywords": ["coding", "knowledge", "use", "platform"]
+    },
+    {
+        "question": "Can I integrate payment gateways?",
+        "keywords": ["integrate", "payment", "gateways"]
+    },
+    {
+        "question": "Is it possible to customize my online store?",
+        "keywords": ["possible", "customize", "online", "store"]
+    },
+    {
+        "question": "Does this platform support multiple languages?",
+        "keywords": ["platform", "support", "multiple", "languages"]
+    },
+    {
+        "question": "Can I use my custom domain name?",
+        "keywords": ["use", "custom", "domain", "name"]
+    },
+    {
+        "question": "How secure is my online store?",
+        "keywords": ["secure", "online", "store"]
+    },
+    {
+        "question": "What happens if I encounter technical issues?",
+        "keywords": ["happens", "encounter", "technical", "issues"]
+    },
+    {
+        "question": "Does the platform have SEO tools?",
+        "keywords": ["platform", "SEO", "tools"]
+    },
+    {
+        "question": "Can I sell digital products with this platform?",
+        "keywords": ["sell", "digital", "products", "platform"]
+    },
+    {
+        "question": "How much does the platform cost?",
+        "keywords": ["much", "platform", "cost"]
+    },
+    {
+        "question": "Are there hidden fees for transactions?",
+        "keywords": ["hidden", "fees", "transactions"]
+    },
+    {
+        "question": "Can I manage inventory through the platform?",
+        "keywords": ["manage", "inventory", "platform"]
+    },
+    {
+        "question": "Is there a mobile version of the store?",
+        "keywords": ["mobile", "version", "store"]
+    },
+    {
+        "question": "Can I add promotional offers?",
+        "keywords": ["add", "promotional", "offers"]
+    },
+    {
+        "question": "Does the platform support social media integration?",
+        "keywords": ["platform", "support", "social", "media", "integration"]
+    },
+    {
+        "question": "How do I analyze my store’s performance?",
+        "keywords": ["analyze", "store", "performance"]
+    },
+    {
+        "question": "Is there a limit to the number of products I can add?",
+        "keywords": ["limit", "number", "products", "add"]
+    },
+    {
+        "question": "Can I export data from my store?",
+        "keywords": ["export", "data", "store"]
+    },
+    {
+        "question": "Does the platform offer email marketing features?",
+        "keywords": ["platform", "email", "marketing", "features"]
+    },
+    {
+        "question": "Can I set up multiple storefronts?",
+        "keywords": ["set", "multiple", "storefronts"]
+    },
+    {
+        "question": "What payment methods are supported?",
+        "keywords": ["payment", "methods", "supported"]
+    },
+    {
+        "question": "Does the platform include shipping management?",
+        "keywords": ["shipping", "management", "platform"]
+    },
+    {
+        "question": "Can I use third-party integrations?",
+        "keywords": ["third", "party", "integrations"]
+    },
+    {
+        "question": "What happens if I want to scale my store?",
+        "keywords": ["scale", "store", "business"]
+    },
+    {
+        "question": "How long does it take to set up a store?",
+        "keywords": ["long", "set", "store"]
+    },
+    {
+        "question": "Can I upload product images?",
+        "keywords": ["upload", "product", "images"]
+    },
+    {
+        "question": "Does the platform support product variations?",
+        "keywords": ["product", "variations", "support"]
+    },
+    {
+        "question": "How do I handle returns and refunds?",
+        "keywords": ["handle", "returns", "refunds"]
+    },
+    {
+        "question": "Can I offer subscription-based products?",
+        "keywords": ["offer", "subscription", "products"]
+    },
+    {
+        "question": "What type of technical support is available?",
+        "keywords": ["technical", "support", "available"]
+    },
+    {
+        "question": "Can I schedule product launches?",
+        "keywords": ["schedule", "product", "launches"]
+    },
+    {
+        "question": "Does the platform support real-time chat with customers?",
+        "keywords": ["real", "time", "chat", "customers"]
+    },
+    {
+        "question": "Can I add blog content to my store?",
+        "keywords": ["add", "blog", "content"]
+    },
+    {
+        "question": "How do I handle taxes for my sales?",
+        "keywords": ["handle", "taxes", "sales"]
+    },
+    {
+        "question": "Can I test my store before launching?",
+        "keywords": ["test", "store", "launching"]
+    },
+    {
+        "question": "Does the platform provide hosting?",
+        "keywords": ["platform", "provide", "hosting"]
+    },
+    {
+        "question": "Can I track abandoned carts?",
+        "keywords": ["track", "abandoned", "carts"]
+    },
+    {
+        "question": "Does the platform support multiple currencies?",
+        "keywords": ["support", "multiple", "currencies"]
+    },
+    {
+        "question": "Is there a way to get feedback from customers?",
+        "keywords": ["feedback", "customers", "get"]
+    },
+    {
+        "question": "Can I showcase featured products?",
+        "keywords": ["showcase", "featured", "products"]
+    },
+    {
+        "question": "Does the platform support affiliate programs?",
+        "keywords": ["support", "affiliate", "programs"]
+    },
+    {
+        "question": "How do I back up my store data?",
+        "keywords": ["back", "store", "data"]
+    },
+    {
+        "question": "Can I set up custom shipping zones?",
+        "keywords": ["custom", "shipping", "zones"]
+    },
+    {
+        "question": "Does the platform offer loyalty programs?",
+        "keywords": ["offer", "loyalty", "programs"]
+    },
+    {
+        "question": "How can I optimize my store’s speed?",
+        "keywords": ["optimize", "store", "speed"]
+    },
+    {
+        "question": "What file formats are supported for uploads?",
+        "keywords": ["file", "formats", "uploads"]
+    },
+    {
+        "question": "Can I integrate with accounting software?",
+        "keywords": ["integrate", "accounting", "software"]
+    },
+    {
+        "question": "How do I ensure my store meets legal requirements?",
+        "keywords": ["ensure", "store", "legal", "requirements"]
+    },
+    {
+        "question": "Can I automate repetitive tasks?",
+        "keywords": ["automate", "repetitive", "tasks"]
+    }
+]

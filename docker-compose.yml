@@ -1,0 +1,38 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.10
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+    ports:
+      - "${ELASTIC_PORT}:${ELASTIC_PORT}"
+      - "${ELASTIC_PORT}:${ELASTIC_PORT}"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+
+  nlp:
+      build:
+        context: ./internal/nlp
+        dockerfile: Dockerfile
+      ports:
+        - "${NLP_PORT}:${NLP_PORT}"
+      container_name: python
+
+  app:
+      build: .
+      container_name: server
+      ports:
+        - "${SERVER_PORT}:${SERVER_PORT}"
+      environment:
+        - NLP_HOST=${NLP_HOST}
+        - NLP_PORT=${NLP_PORT}
+        - ELASTIC_HOST=${ELASTIC_HOST}
+        - ELASTIC_PORT=${ELASTIC_PORT}
+      depends_on:
+        - nlp
+        - elasticsearch
+
+volumes:
+  es_data:
+    driver: local

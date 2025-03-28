@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package keywords;
+option go_package = "/;proto";
+
+// Определение gRPC-сервиса
+service KeywordExtractor {
+    rpc ExtractKeywords (KeywordRequest) returns (KeywordResponse);
+}
+
+// Сообщение запроса
+message KeywordRequest {
+    string question = 1; // Вопрос от пользователя
+}
+
+// Сообщение ответа
+message KeywordResponse {
+    repeated string keywords = 1; // Список ключевых слов
+}

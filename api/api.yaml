@@ -1,0 +1,49 @@
+openapi: 3.0.0
+info:
+  title: FAQ API
+  version: 1.0.0
+  description: API для получения информации по заданному вопросу.
+
+servers:
+  - url: http://localhost:8080
+    description: Локальный сервер для разработки
+
+paths:
+  /faq:
+    get:
+      summary: Поиск ответа на вопрос
+      description: Возвращает ответ на заданный вопрос.
+      parameters:
+        - name: question
+          in: query
+          required: true
+          description: Вопрос, на который нужен ответ.
+          schema:
+            type: string
+            example: "What is the purpose of your low-code platform?"
+      responses:
+        200:
+          description: Успешный ответ
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  question:
+                    type: string
+                    example: "What is the purpose of your low-code platform?"
+                  answer:
+                    type: string
+                    example: "Our low-code platform is designed to simplify the creation of applications, enabling users to build solutions quickly without extensive coding knowledge."
+        400:
+          description: Некорректный запрос
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Parameter 'question' is required"
+        500:
+          description: Внутренняя ошибка сервера
